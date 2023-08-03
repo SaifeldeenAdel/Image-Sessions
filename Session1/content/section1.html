@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				font-family: "Raleway";
+			}
+		</style>
+		<title>Section 1</title>
+	</head>
+	<body>
+		<h1>OpenCV - Working with Images</h1>
+		<h2>Loading and Displaying an Image</h2>
+		<p>
+			To load an image, use the imread function in OpenCV. <br /><br />
+			Displaying an image in OpenCV is done using the imshow function or by using
+			Matplotlib. The second paramter being a 0 specifies greyscale. <br />
+			Try removing the cmap arg from matplotlib and run the cell again.
+		</p>
+
+		<h2>How images are represented</h2>
+		We can see the following features in an image after loading it:
+		<ul>
+			<li>Images are stored as numpy arrays</li>
+			<li>2D Matrix (Color images will be 3D)</li>
+			<li>
+				Data type of uint8 (so all integer values will be in the range of 0 - 255)
+			</li>
+		</ul>
+
+		<h2>Pixel Values explained</h2>
+		<ul>
+			<li>
+				An image will have X*Y pixels and thats the shape of the 2D matrix stored.
+			</li>
+			<li>
+				Each pixel is a number value in the matrix and the numbers indicate the
+				pixel's color
+			</li>
+		</ul>
+		<p>
+			By creating a pixel array that goes from 0 to 255 and displaying it, we see
+			that it produces a square that goes from black to white. <br />
+			Meaning 0 = black , 255 = white
+		</p>
+
+		<h3>Binary images</h3>
+		<p>
+			Images that contain pixels with the values 0 or 255 only are called binary
+			images.
+		</p>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				font-family: "Raleway";
+			}
+		</style>
+		<title>Section 2</title>
+	</head>
+	<body>
+		<h1>Image Operations</h1>
+		<p>
+			There are so many ways to modify image arrays, we will explore some of the
+			most common and useful ones in our work. <br />
+			Starting with your normal addition and subtraction of pixel values which
+			results in brighter and darker images. <br />
+			<b
+				>Be careful adding to images of type uint8 as this may cause an overflow
+				demonstrated in the notebook</b
+			>
+		</p>
+    <br>
+		<h3>Image partitioning</h3>
+		<p>
+			Sometimes you will need to crop out a certain part of your image to get rid of
+			something. <br />
+			This can easily be done using numpy indexing similar to what we did before.
+		</p>
+
+		<h3>Image resizing</h3>
+		<p>A problem we will face when working with multiple images later is them being of different dimensions. So we need to learn how to get an image into our desired dimensions. <br> Additionally you might also want to resize an image to create a smaller image with the same aspect ratio  </p>
+
+    <h3>Rotation and Reflection</h3>
+		<p>Built in functions in openCV let you rotate images by multiples of 90 and reflect them along the y or x axes.</p>
+	</body>
+</html>

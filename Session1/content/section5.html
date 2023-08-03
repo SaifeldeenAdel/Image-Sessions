@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				font-family: "Raleway";
+			}
+		</style>
+
+		<title>Section 5</title>
+	</head>
+	<body>
+		<h1>Mouse Events and callbacks</h1>
+		<p>
+			Images displayed using OpenCV can have a mouse callback function attached to
+			them
+		</p>
+		<h3>What's a callback function?</h3>
+		<p>
+			It is a function that runs as a result of a certain event occuring. In our
+			case, when we attach a mouse callback function to an image, whenever a mouse event occurs (click, double click ,etc), this function runs. <br> In openCV this function takes in a lot of paramters, most importantly though are the event and the x ,y coordinates. You can learn more about how a callback function works in our notebook and <a href="https://www.geeksforgeeks.org/handle-mouse-events-in-python-opencv/">here</a>
+		</p>
+
+    <h3>Drawing on our images</h3>
+		<p>
+			Often times we need to draw shapes on our images. Whether its a bounding box
+			to detect a certain object or its some lines to detect edges or straight lines
+			for example. <br>
+      These can be done as a result of a mouse event or as part of a detection algorithm. <br>
+			In OpenCV, there are built in functions for drawing over your images. For
+			example if you need to draw a rectangle, you might find <a target="_blank" href="https://www.google.com/search?q=drawing+a+rectangle+opencv">these results</a> helpful.
+		</p>
+	</body>
+</html>

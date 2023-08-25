@@ -1,9 +1,9 @@
 ## Submission Procedure
 
 <ul>
-				<li>Create a jupyter notebook</li>
-				<li>Create a task-assets folder (copy any images you need for your tasks into /task-assets)</li>
-				<li>Initialize a git repo</li>
+				<li>Create a jupyter notebook here</li>
+				<li>Create a task-assets folder here(copy any images you need for your tasks into /task-assets)</li>
+				<li>Initialize a git repo here</li>
 				<li>
 					Implement all Tasks in the notebook (with an appropriate heading/comment for
 					each task)

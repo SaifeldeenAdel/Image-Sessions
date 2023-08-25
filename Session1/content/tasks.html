@@ -13,6 +13,7 @@
 		<style>
 			body {
 				font-family: "Raleway";
+        margin-bottom: 100px;
 			}
 		</style>
 		<title>Tasks</title>
@@ -36,37 +37,40 @@
 		</div>
 		<h3>Task 1 - NumPy</h3>
 		<p>
-			Create an array that contains the values from 1000 to 2000 in order. <br> Then a new array that contains the values from indexes 150 to 300 in that first array. <b>Print out both arrays</b>
+      Manually create a 300x300 pixel binary image using numpy arrays that looks like this and display it in your notebook using the displayImage function
 		</p>
+    <img width="200" src="../assets/task1.png" alt="">
 
     <h3>Task 2 - Image concatenation</h3>
 		<p>
       <ul>
         <li>
-          Load and Display the 3 images named concat#.jpg seperately at once using the openCV imshow() function. <b>Don't forget the waitKey lines</b>
+          Load and Display the 3 images named concat#.jpg seperately at once using the openCV imshow() function. <b>Don't forget the waitKey and destroyAllWindows lines</b>
         </li>
         <li>
           Create a new image by concatenating those 3 images side by side (1 being on the left, 3 right) into a single one. <b>Display this image in the notebook using the displayImage function</b> 
         </li>
       </ul>
 		</p>
+    
+    <h3>Task 3 - Thresholding</h3>
+    <p>
+      Implement the <b>TO_ZERO</b> simple thresholding on the threshold.jpg image <b>using NumPy arrays only</b> . Display the original and thresholded image using the displayImages() function.
+    </p>
 
-    <h3>Task 3 - Feature Matching</h3>
+
+    <h3>Task 4 - Feature Matching</h3>
     <p>
       <ul>
-        <li>Implement feature matching using the two images named feature1 & feature2</li>
+        <li>Implement feature matching using the two images named feature1 & feature2 or any two pictures that have a feature in common</li>
         <li>There are two algorithms one might choose to use. This task's objective is to learn how to read the documentation and extracting useful code you need to make things work. <br> So read the <a href="https://docs.opencv.org/4.x/dc/dc3/tutorial_py_matcher.html">documentation here</a> and display the features matched using two different ways.</li>
       </ul>
 		</p>
 
-    <h3>Task 4 - Thresholding</h3>
-    <p>
-      Implement the <b>TO_ZERO</b> simple thresholding on the threshold.jpg image using NumPy arrays only.
-		</p>
 
     <h3>Final Task - Drawing a bounding box</h3>
     <p>
-      Create a mouse callback function on an image that allows a user to select two points (corners of the bounding box) on an image resulting in a red bounding box being drawn over it.
+      Create a mouse callback function on an image that allows a user to select two points (corners of the bounding box) on an image resulting in a red bounding box being drawn over the same image. <br> (<b>Hint:</b>  Very similar to what we did in the session however instead of cropping, you'll use the two points to draw a rectangle. Search for rectangle drawing functions in opencv)
 		</p>
 
 	</body>
